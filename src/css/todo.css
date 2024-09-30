@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+}
+#container{
+    width: 700px;
+    height: 500px;
+    border-radius: 5px;
+    margin:auto;
+    margin-top: 5%;
+    box-shadow: 1px 1px 4px 0px #ECECEC;
+}
+#header{
+    width:100%;
+    height:20%;
+    background-color: #FF33AE;
+    padding-top:40px;
+}
+#inputContainer{
+    width: 309px;
+    height: auto;
+    padding: 10px 30px;
+    padding-bottom: 16px;
+    background-color: #FFFFFF;
+    margin: auto;
+    margin-top: -43px;
+    box-shadow: 1px 1px 4px 0px #ECECEC;
+
+}
+button {
+    padding: 5px 9px;
+    background-color: #FF33AE;
+    color: white;
+    outline: none;
+    border: 0px;
+}
+
+input#todoInput {
+    width: 76%;
+    padding: 3px;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 6px;
+}
+input:focus{
+    outline:none;
+}
+ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+}
+li{
+    width:330px;
+    padding:10px 20px;
+    border:1px solid #ECECEC;
+    margin:auto;
+}
+.optionsWrapper{
+    float:right;
+}
+.option{
+    color: #FF33AE;
+    margin-right:4px;
+    padding:5px 9px;    
+    cursor: pointer;
+    border-radius:3px;
+}
